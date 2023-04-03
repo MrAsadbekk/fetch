@@ -1,0 +1,64 @@
+.container {
+  max-width: 1440px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box__two {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.box__name {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.box__email {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.box__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1376px) {
+  .box__two {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 1177px) {
+  .box__two {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 976px) {
+  .box__two {
+    width: 170px;
+  }
+}
